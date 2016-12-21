@@ -1,10 +1,10 @@
-const WEBHED = "When Allegiant Air's planes started failing more and more, the FAA could have cracked down. It didn't."; // serves as FB title, social hed and analytics
-const TWHED = "The FAA could have cracked down on Allegiant Air. It didn't."; // serves as Twitter title if different than FB title.
-const DESCRIPTION = "The FAA ordered no corrective action despite a rash of midair breakdowns last year.";
+const WEBHED = "Behind the Story"; // serves as FB title, social hed and analytics
+const TWHED = "How I used Legos to Tell a Newspaper Story"; // serves as Twitter title if different than FB title.
+const DESCRIPTION = "The first week of my internship on the data team at the Tampa Bay Times, my editor pulled me into an office and gave me an unusual assignment.";
 const YEAR = "2016";
-const NAME = "allegiant4";
+const NAME = "LegoHow";
 const SECTION = "Investigations";
-const URL = `http://www.tampabay.com/projects/${YEAR}/${SECTION.toLowerCase()}/allegiant-air-faa-oversight-breakdown-plane/`;
+const URL = `http://www.tampabay.com/projects/${YEAR}/${SECTION.toLowerCase()}/xx`;
 const SOCIAL_IMG = `${URL}assets/allegiant4/social.jpg`;
 const IMG_WIDTH = "1200"; //for social img
 const IMG_HEIGHT = "630";

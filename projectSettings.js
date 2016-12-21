@@ -2,11 +2,11 @@
 class SettingsConfig {
   constructor() {
     this.name = "legohow";
-    this.dependsOn = ["core"];
-    this.styles = [];
+    this.dependsOn = ["tbt-core"];
+    this.styles = ["legohow/styles.scss"];
     this.scripts = [];
-    this.assets = [];
-    this.blocks = ["ARTICLE"];
+    this.assets = ["legohow/animation.gif", "legohow/headline.gif"];
+    this.blocks = ["core/header.html", "ARTICLE", "tbt-core/comments.html","core/footer.html","tbt-analytics/omniture.html"];
     this.assets = [
       "tbt-analytics/tracker.js"
     ];
