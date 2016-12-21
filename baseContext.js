@@ -1,14 +1,14 @@
-const WEBHED = "Behind the Story"; // serves as FB title, social hed and analytics
-const TWHED = "How I used Legos to Tell a Newspaper Story"; // serves as Twitter title if different than FB title.
-const DESCRIPTION = "The first week of my internship on the data team at the Tampa Bay Times, my editor pulled me into an office and gave me an unusual assignment.";
+const WEBHED = "I explained a local news story in stop-motion Legos. Here’s how"; // serves as FB title, social hed and analytics
+const TWHED = "I explained a local news story in stop-motion Legos. Here’s how"; // serves as Twitter title if different than FB title.
+const DESCRIPTION = "The first week of my internship at the Tampa Bay Times, my editor pulled me into an office and gave me an unusual assignment.";
 const YEAR = "2016";
 const NAME = "LegoHow";
-const SECTION = "Investigations";
-const URL = `http://www.tampabay.com/projects/${YEAR}/${SECTION.toLowerCase()}/xx`;
-const SOCIAL_IMG = `${URL}assets/allegiant4/social.jpg`;
+const SECTION = "Features";
+const URL = `http://www.tampabay.com/projects/${YEAR}/${SECTION.toLowerCase()}/howard-frankland-bridge-plan-legos/how-we-did-it/`;
+const SOCIAL_IMG = `${URL}assets/legohow/social.jpg`;
 const IMG_WIDTH = "1200"; //for social img
 const IMG_HEIGHT = "630";
-const AUTHOR = "Nathaniel Lash";
+const AUTHOR = "Eli Zhang";
 const TITLE = `${WEBHED} | ${SECTION} | Tampa Bay Times`;
 class ContextObject {
   constructor(){
