@@ -4,7 +4,7 @@ class SettingsConfig {
     this.name = "legohow";
     this.dependsOn = ["tbt-core"];
     this.styles = ["legohow/styles.scss"];
-    this.scripts = [];
+    this.scripts = ["tbt-core/isMobile.js"];
     this.assets = ["legohow/animation.gif", "legohow/headline.gif"];
     this.blocks = ["core/header.html", "ARTICLE", "tbt-core/comments.html","core/footer.html","tbt-analytics/omniture.html"];
     this.assets = [
